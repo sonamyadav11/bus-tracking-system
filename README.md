@@ -1,6 +1,4 @@
 
-Sure, here's a comprehensive README file for a bus tracking system:
-
 Bus Tracking System: Navigating with Precision and Efficiency
 This repository houses the code and documentation for a robust bus tracking system designed to revolutionize public transportation management. The system leverages real-time data and intuitive interfaces to provide accurate bus location information, estimated arrival times, and route optimization capabilities, enhancing the commuting experience for both passengers and operators.
 
