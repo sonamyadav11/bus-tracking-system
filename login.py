@@ -13,6 +13,22 @@ def login_user(username, password):
     if username in user_data and user_data[username] == password:
         return "Login successful. Welcome, " + username + "!"
     return "Login failed. Please check your credentials."
+import re
+import datetime
+
+# Function to validate the time format
+def is_valid_time(time_str):
+    try:
+        datetime.datetime.strptime(time_str, '%H:%M')
+        return True
+    except ValueError:
+        return False
+
+# Inside the choice "1" block
+departure_time = input("Enter departure time (HH:MM): ")
+if not is_valid_time(departure_time):
+    print("Invalid time format. Please enter in HH:MM format.")
+    continue
 
 # Main program
 if __name__ == "__main__":
